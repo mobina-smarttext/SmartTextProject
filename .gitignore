@@ -1,0 +1,44 @@
+
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# Private databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Secrets and local configuration
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Backups
+*.zip
+*_backup.py
+*_backup_*.md
+
+# Generated user reports
+reports/similarity_report_*
+
+# Temporary files
+.DS_Store
+Thumbs.db
+
+# Training and evaluation datasets
+data/raw/
+data/processed/*.jsonl
+data/cleaned_experimental/
+data/english/processed/
+data/evaluation/
+
+# Experimental reports
+reports/
+
+# Internal project notes
+HANDOFF_LOG.md
+DECISION_LOG.md
+PROJECT_STATUS.md
+requirements_backup.txt
+data/plagiarism/documents_backup.json

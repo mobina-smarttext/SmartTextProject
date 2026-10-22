@@ -1,0 +1,4 @@
+dataset_id,name,purpose,language,source_url,license,status,notes
+DS001,Persian AI-Text Corpus,AI-generated text detection,Persian,https://github.com/asrinvakili/persian-ai-text-corpus,"CC BY-SA 4.0 for human texts; provider-specific terms for AI texts",UNDER_REVIEW,"4000 records reported; 1000 human and 3000 AI; verify current repository files and usage terms"
+DS002,HC3,AI-generated text detection,English,https://huggingface.co/datasets/Hello-SimpleAI/HC3,UNDER_REVIEW,"Candidate only; verify schema and license"
+DS003,PAN Plagiarism Corpus,Plagiarism detection,To be verified,https://zenodo.org/records/3250095,UNDER_REVIEW,"Candidate only; assess scope, language coverage, and size"
