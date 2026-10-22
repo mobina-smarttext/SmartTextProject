@@ -10,7 +10,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 DOCUMENTS_FILE = PROJECT_ROOT / "data" / "plagiarism" / "documents.json"
 
-model = get_semantic_model()
+
 LEXICAL_WEIGHT = 0.5
 SEMANTIC_WEIGHT = 0.5
 
