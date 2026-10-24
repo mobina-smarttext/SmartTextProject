@@ -1,0 +1,27 @@
+﻿External Persian Similarity Evaluation
+============================================================
+Date: 2026-10-24 17:12:11
+Dataset: ExaPPC
+Random seed: 42
+Samples: 200
+Positive: 100
+Negative: 100
+Threshold (preselected): 40%
+
+Accuracy: 0.8300
+Precision: 1.0000
+Recall: 0.6600
+F1: 0.7952
+ROC AUC: 0.9900
+
+Confusion matrix (rows=true, columns=predicted):
+[[100   0]
+ [ 34  66]]
+
+LIMITATIONS:
+- Public labeled dataset; not a verified independent test of training-data overlap.
+- Only 200 randomly sampled pairs.
+- Paraphrase labels are not plagiarism labels.
+- Dataset domain may differ from student documents.
+- Threshold is exploratory and not calibrated.
+- Similarity does not establish plagiarism.

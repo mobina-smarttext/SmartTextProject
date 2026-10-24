@@ -1,0 +1,53 @@
+﻿External English Similarity Evaluation
+============================================================
+Date: 2026-10-24 17:33:07
+Dataset: GLUE MRPC validation
+Samples: 408
+Positive: 279
+Negative: 129
+Threshold (preselected): 40%
+
+Accuracy: 0.7255
+Precision: 0.7158
+Recall: 0.9928
+F1: 0.8318
+ROC AUC: 0.7679
+
+Confusion matrix (rows=true, columns=predicted):
+[[ 19 110]
+ [  2 277]]
+
+SIMILARITY SCORE DISTRIBUTIONS:
+
+Non-paraphrase:
+Count: 129
+Minimum: 0.2730
+25th percentile: 0.4545
+Median: 0.5416
+75th percentile: 0.6275
+Maximum: 0.8308
+Mean: 0.5460
+
+Paraphrase:
+Count: 279
+Minimum: 0.3667
+25th percentile: 0.5869
+Median: 0.6839
+75th percentile: 0.7821
+Maximum: 0.9981
+Mean: 0.6807
+
+THRESHOLD COMPARISON:
+Threshold | Accuracy | Precision | Recall | F1 | FP | FN
+40% | 0.7255 | 0.7158 | 0.9928 | 0.8318 | 110 | 2
+50% | 0.7304 | 0.7522 | 0.9032 | 0.8208 | 83 | 27
+60% | 0.7034 | 0.8347 | 0.7061 | 0.7650 | 39 | 82
+70% | 0.5882 | 0.8675 | 0.4695 | 0.6093 | 20 | 148
+
+LIMITATIONS:
+- Public labeled dataset; training overlap not verified.
+- MRPC measures paraphrase equivalence, not plagiarism.
+- Threshold comparison is exploratory on the same data.
+- No threshold is independently calibrated.
+- Dataset domain differs from student documents.
+- Similarity does not establish plagiarism.
